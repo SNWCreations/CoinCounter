@@ -1,0 +1,8 @@
+name: CoinCounter
+version: '${project.version}'
+main: snw.coincounter.CoinCounter
+api-version: '1.20'
+commands:
+  cointrack:
+    permission: op
+    description: "Track count of coin"
